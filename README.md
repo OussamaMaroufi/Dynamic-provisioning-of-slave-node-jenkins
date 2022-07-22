@@ -16,3 +16,20 @@
 Jenkins master connects to the docker host using REST APIs. So we need to enable the remote API for our docker host.
 
 ![jenkins-docker](https://github.com/OussamaMaroufi/Dynamic-provisioning-of-slave-node-jenkins/blob/main/images/remote-api.png?raw=true)
+
+### step1:
+Open the docker service file /lib/systemd/system/docker.service. Search for ExecStart and replace that line with the following.
+
+```
+ExecStart=/usr/bin/dockerd -H tcp://0.0.0.0:4243 -H unix:///var/run/docker.sock
+```
+
+### step2:
+Reload and restart docker service.
+
+```
+$ sudo systemctl daemon-reload
+$ sudo service docker restart
+```
+
+
