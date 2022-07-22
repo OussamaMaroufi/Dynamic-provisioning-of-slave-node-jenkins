@@ -113,6 +113,9 @@ And after running the job automatically the container in docker and slave in clu
 
 ![jenkins-docker](https://github.com/OussamaMaroufi/Dynamic-provisioning-of-slave-node-jenkins/blob/main/images/step8.png?raw=true)
 
+-Workspace will show all the files and folders and we can also downloade The Artifact
+
+![jenkins-docker](https://github.com/OussamaMaroufi/Dynamic-provisioning-of-slave-node-jenkins/blob/main/images/step9.png?raw=true)
 
 
 
