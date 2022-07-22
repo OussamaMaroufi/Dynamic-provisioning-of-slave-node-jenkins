@@ -51,9 +51,27 @@ $ curl http://54.221.134.7:4243/version
 
 ![jenkins-docker](https://github.com/OussamaMaroufi/Dynamic-provisioning-of-slave-node-jenkins/blob/main/images/config-cloud.png?raw=true)
 
+- Add docker Agent Template.
+
+
+![jenkins-docker](https://github.com/OussamaMaroufi/Dynamic-provisioning-of-slave-node-jenkins/blob/main/images/docker-agent-template.png?raw=true)
+
+
 
 #### Note:
  Replace “Docker URI” with your docker host IP. For example, tcp://10.128.0.3:4243 You can use the “Test connection” to test if Jenkins is able to connect to the Docker host.
+
+
+
+
+ ###### 3- Job in Jenkins Setup :
+
+ First we need plugins i.e. dependencies i.e. Git, Docker and Maven from Manage Jenkins --> Manage Plugins.
+
+- Create New Freestyle Item:
+
+![jenkins-docker](https://github.com/OussamaMaroufi/Dynamic-provisioning-of-slave-node-jenkins/blob/main/images/step1.png?raw=true)
+
 
 
 
