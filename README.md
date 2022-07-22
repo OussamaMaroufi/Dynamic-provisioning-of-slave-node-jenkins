@@ -6,3 +6,6 @@
 ## WHAT IS DYNAMIC PROVISIONING?
 
 #### Dynamic provisioning means provision of slave nodes as and when needed i.e. when we need to run any job in jenkins to save the resources
+
+
+## Now let's try to implement this concept by integrating JENKINS with MAVEN using MASTER and SLAVE in Linux OS.
