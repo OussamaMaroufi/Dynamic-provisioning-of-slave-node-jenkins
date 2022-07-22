@@ -41,10 +41,18 @@ $ curl http://54.221.134.7:4243/version
 
  ##### 2- Configure Jenkins Server With Docker Plugin : 
 
- Head over to Jenkins Dashboard –> Manage Jenkins –> Manage Plugins.
+ - Head over to Jenkins Dashboard –> Manage Jenkins –> Manage Plugins.
 
 
 ![jenkins-docker](https://github.com/OussamaMaroufi/Dynamic-provisioning-of-slave-node-jenkins/blob/main/images/docker-plugin.png?raw=true)
+
+- Head over cloud configuration under Manage Jenkins –> Manage Nodes and Clouds
+
+
+![jenkins-docker](https://github.com/OussamaMaroufi/Dynamic-provisioning-of-slave-node-jenkins/blob/main/images/config-cloud.png?raw=true)
+
+
+
 
 
 
