@@ -85,6 +85,21 @@ Here we take code from GitHub for testing purpose.
 
 ![jenkins-docker](https://github.com/OussamaMaroufi/Dynamic-provisioning-of-slave-node-jenkins/blob/main/images/step3.png?raw=true)
 
+- Now go to BUILD and set options.
+
+We need to perform operations i.e. Test --> Compile --> Package.
+
+
+![jenkins-docker](https://github.com/OussamaMaroufi/Dynamic-provisioning-of-slave-node-jenkins/blob/main/images/step4.png?raw=true)
+
+- Now go to POST BUILD ACTIONS and set options.
+
+As we want to archive the package i.e. called ARTIFACT to download it in .jar extension to use it directly.
+
+![jenkins-docker](https://github.com/OussamaMaroufi/Dynamic-provisioning-of-slave-node-jenkins/blob/main/images/step5.png?raw=true)
+
+
+
 
 
 
