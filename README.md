@@ -98,6 +98,22 @@ As we want to archive the package i.e. called ARTIFACT to download it in .jar ex
 
 ![jenkins-docker](https://github.com/OussamaMaroufi/Dynamic-provisioning-of-slave-node-jenkins/blob/main/images/step5.png?raw=true)
 
+-  Now build the job in jenkins.
+
+Now as soon as we build the job then docker will launch the container in which specified slave will set and then run the job inside it.
+
+And after running the job automatically the container in docker and slave in cluster will be deleted
+
+
+![jenkins-docker](https://github.com/OussamaMaroufi/Dynamic-provisioning-of-slave-node-jenkins/blob/main/images/step6.png?raw=true)
+
+![jenkins-docker](https://github.com/OussamaMaroufi/Dynamic-provisioning-of-slave-node-jenkins/blob/main/images/step7.png?raw=true)
+
+- Console Output will show the output and whole process/steps involved in it.
+
+![jenkins-docker](https://github.com/OussamaMaroufi/Dynamic-provisioning-of-slave-node-jenkins/blob/main/images/step8.png?raw=true)
+
+
 
 
 
