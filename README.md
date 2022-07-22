@@ -42,7 +42,7 @@ $ curl http://54.221.134.7:4243/version
  ##### 2- Configure Jenkins Server With Docker Plugin : 
 
  - Head over to Jenkins Dashboard –> Manage Jenkins –> Manage Plugins.
-
+![jenkins-docker](https://github.com/OussamaMaroufi/Dynamic-provisioning-of-slave-node-jenkins/blob/main/images/config-cloud.png?raw=true)
 
 
 
@@ -52,9 +52,9 @@ $ curl http://54.221.134.7:4243/version
 ![jenkins-docker](https://github.com/OussamaMaroufi/Dynamic-provisioning-of-slave-node-jenkins/blob/main/images/config-cloud.png?raw=true)
 
 
-```
-Note: Replace “Docker URI” with your docker host IP. For example, tcp://10.128.0.3:4243 You can use the “Test connection” to test if Jenkins is able to connect to the Docker host.
-```
+#### Note:
+ Replace “Docker URI” with your docker host IP. For example, tcp://10.128.0.3:4243 You can use the “Test connection” to test if Jenkins is able to connect to the Docker host.
+
 
 
 
