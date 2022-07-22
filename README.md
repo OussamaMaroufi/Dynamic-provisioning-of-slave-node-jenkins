@@ -68,10 +68,22 @@ $ curl http://54.221.134.7:4243/version
 
  First we need plugins i.e. dependencies i.e. Git, Docker and Maven from Manage Jenkins --> Manage Plugins.
 
-- Create New Freestyle Item:
+- Create New Freestyle Project:
 
 ![jenkins-docker](https://github.com/OussamaMaroufi/Dynamic-provisioning-of-slave-node-jenkins/blob/main/images/step1.png?raw=true)
 
+- Now go to GENERAL and set options.
+
+By-default job runs in master so we need to restrict it to run inside the slave-nodes.
+
+![jenkins-docker](https://github.com/OussamaMaroufi/Dynamic-provisioning-of-slave-node-jenkins/blob/main/images/step2.png?raw=true)
+
+
+- Now go to SOURCE CODE MANAGEMENT and set options.
+
+Here we take code from GitHub for testing purpose.
+
+![jenkins-docker](https://github.com/OussamaMaroufi/Dynamic-provisioning-of-slave-node-jenkins/blob/main/images/step3.png?raw=true)
 
 
 
