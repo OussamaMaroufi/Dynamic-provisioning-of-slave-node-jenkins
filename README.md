@@ -11,7 +11,7 @@
 ## Now let's try to implement this concept by integrating JENKINS with MAVEN using MASTER and SLAVE in Linux OS.
 
 
-##### Configure a Docker Host With Remote API :
+##### 1- Configure a Docker Host With Remote API :
 
 Jenkins master connects to the docker host using REST APIs. So we need to enable the remote API for our docker host.
 
@@ -31,5 +31,22 @@ Reload and restart docker service.
 $ sudo systemctl daemon-reload
 $ sudo service docker restart
 ```
+### step3:
+ Validate API by executing the following curl commands. Replace 54.221.134.7 with your host IP.
+
+ ```
+$ curl http://localhost:4243/version
+$ curl http://54.221.134.7:4243/version
+ ```
+
+ ##### 2- Configure Jenkins Server With Docker Plugin : 
+
+ Head over to Jenkins Dashboard –> Manage Jenkins –> Manage Plugins.
+
+
+![jenkins-docker](https://github.com/OussamaMaroufi/Dynamic-provisioning-of-slave-node-jenkins/blob/main/images/docker-plugin.png?raw=true)
+
+
+
 
 
